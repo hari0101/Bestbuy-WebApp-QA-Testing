@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T19:36:58 IST" name="Suite" finished-at="2024-11-25T19:37:19 IST" duration-ms="20934">
+    <groups>
+      <group name="jenkins">
+        <method signature="HomePageTest.orderStatusValidation()[pri:3, instance:testExecution.HomePageTest@1991f767]" name="orderStatusValidation" class="testExecution.HomePageTest"/>
+      </group> <!-- jenkins -->
+    </groups>
+    <test started-at="2024-11-25T19:36:58 IST" name="SanityCheck" finished-at="2024-11-25T19:37:19 IST" duration-ms="20934">
+      <class name="testExecution.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testExecution.HomePageTest@1991f767]" started-at="2024-11-25T19:36:59 IST" name="setUp" finished-at="2024-11-25T19:37:17 IST" duration-ms="18180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LocalHost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderStatusValidation()[pri:3, instance:testExecution.HomePageTest@1991f767]" started-at="2024-11-25T19:37:17 IST" name="orderStatusValidation" description="Verify user is able to fetch the orderstatus" finished-at="2024-11-25T19:37:19 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderStatusValidation -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:testExecution.HomePageTest@1991f767]" started-at="2024-11-25T19:37:19 IST" name="tearDown" finished-at="2024-11-25T19:37:19 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testExecution.HomePageTest -->
+    </test> <!-- SanityCheck -->
+  </suite> <!-- Suite -->
+</testng-results>
