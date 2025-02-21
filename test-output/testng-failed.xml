@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [LumaUITest]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="headless" value="false"/>
+  <parameter name="OS" value="11"/>
+  <parameter name="disableGPU" value="false"/>
+  <parameter name="incognito" value="true"/>
+  <parameter name="disableNotification" value="true"/>
+  <parameter name="Machine" value="Local"/>
+  <parameter name="Browser" value="Firefox"/>
+  <parameter name="AutomationControlInfo" value="false"/>
+  <test thread-count="2" name="ReportCheck(failed)" verbose="5">
+    <classes>
+      <class name="com.luma.LumaTests.BaseClass">
+        <methods>
+          <include name="initDriver"/>
+          <include name="homepageTest"/>
+        </methods>
+      </class> <!-- com.luma.LumaTests.BaseClass -->
+    </classes>
+  </test> <!-- ReportCheck(failed) -->
+</suite> <!-- Failed suite [LumaUITest] -->
